@@ -1,15 +1,34 @@
-### 效果图
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-![示例图片](s.png)
+## Getting Started
 
-### 开发说明
+First, run the development server:
 
-1.  使用 Nextjs 框架，使用 Tailwindcss
-2.  右侧 3 面板在浏览器宽度小的时候可以左右滑动，左侧固定
-3.  面板可以点击(x)关闭，关闭后左侧图标变成透明灰色，点击左侧按钮可以打开/关闭
-4.  使用 DNDKit 开发，三个面板可以顶部左右拖动实现类似
-    https://master--5fc05e08a4a65d0021ae0bf2.chromatic.com/?path=/story/presets-sortable-horizontal--basic-setup
-    的效果
-5.  拖拽排序后左侧的图标也要排序，拽动松手要动画自然
-6.  图标使用 https://heroicons.com/ 图标为:
-    MapIcon, MusicalNoteIcon, ChatBubbleBottomCenterIcon, XMarkIcon
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
